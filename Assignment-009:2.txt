@@ -1,0 +1,24 @@
+age = input('Are you a cigarette addict older than 75 years old?True/False: ')
+if age.lower() == 'true' :
+    age = True
+else:
+    age = False
+print(age)
+chronic = input("Do you have a severe chronic disease?True/False: ")
+if chronic.lower() == 'true' :
+    chronic = True
+else:
+    chronic = False
+print(chronic)
+immune =input('Is your immune system too weak?True/False: ')
+if immune.lower() == 'true' :
+    immune = True
+else:
+    immune = False
+print(immune)
+
+risk = age or chronic or immune
+if risk == True:
+  print("There is a risk of death")
+else:
+  print("There is not a risk of death")
