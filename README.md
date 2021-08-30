@@ -1,2 +1,2 @@
 # assignments
-Python basics assignments
+Python Basics assignments. Summer, 2021
